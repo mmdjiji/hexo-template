@@ -4,10 +4,7 @@ title: Hexo Template
 
 > A fast, simple & powerful blog framework, powered by [Node.js](https://nodejs.org). Here is the template of it.
 
-[Demo](https://mmdjiji.github.io/hexo-template) |
-[Official Website](https://hexo.io) |
-[Documentation](https://hexo.io/docs/) |
-[GitHub](https://github.com/mmdjiji/hexo-template)
+[Demo](https://mmdjiji.github.io/hexo-template) | [Official Website](https://hexo.io) | [Documentation](https://hexo.io/docs/) | [GitHub](https://github.com/mmdjiji/hexo-template)
 
 ## Continuous Deployment
 
@@ -15,10 +12,16 @@ This repository uses GitHub Actions for continuous deployment. You don't need to
 
 ## !!! Attention !!!
 
-If you need to deploy with a sub path, please add the code at the end of `_config.yml`:
+Please always maintain this because I used sub path, if you don't need, just remove it at the end of `_config.yml`:
+```yml
+root: /hexo-template
+```
+
+If you need to deploy with a sub path, modify the code at the end of `_config.yml`:
 ```yml
 root: /{Your project name}
 ```
+
 For example, my project is [mmdjiji/hexo-template](https://github.com/mmdjiji/hexo-template), so I will add the following code at the end of `_config.yml`:
 ```yml
 root: /hexo-template
