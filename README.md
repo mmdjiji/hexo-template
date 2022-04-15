@@ -19,6 +19,12 @@ Please always maintain this because I used sub path, if you don't need, just rem
 ```yml
 root: /hexo-template
 ```
+Then modify the line 16 of `_config.yml` to your url:
+```yml
+url: https://jiji.pro/hexo-template
+```
+
+**Sub path:**
 
 If you need to deploy with a sub path, modify the code at the end of `_config.yml`:
 ```yml
