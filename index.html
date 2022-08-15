@@ -74,7 +74,7 @@
     <article id="post-hello-template" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/hexo-template/hello-template/" class="article-date">
-  <time class="dt-published" datetime="2022-07-07T14:35:52.940Z" itemprop="datePublished">2022-07-07</time>
+  <time class="dt-published" datetime="2022-08-15T14:44:45.313Z" itemprop="datePublished">2022-08-15</time>
 </a>
     
   </div>
@@ -97,20 +97,16 @@
 <p>A fast, simple &amp; powerful blog framework, powered by <a target="_blank" rel="noopener" href="https://nodejs.org/">Node.js</a>. Here is the template of it.</p>
 </blockquote>
 <p><a target="_blank" rel="noopener" href="https://mmdjiji.github.io/hexo-template">Demo</a> |<br><a target="_blank" rel="noopener" href="https://hexo.io/">Official Website</a> |<br><a target="_blank" rel="noopener" href="https://hexo.io/docs/">Documentation</a> |<br><a target="_blank" rel="noopener" href="https://github.com/mmdjiji/hexo-template">GitHub</a></p>
-<h2 id="Continuous-Deployment"><a href="#Continuous-Deployment" class="headerlink" title="Continuous Deployment"></a>Continuous Deployment</h2><p>This repository uses GitHub Actions for continuous deployment. You don’t need to build your documents manually. Just commit your documents (then run git push), and then turn on the GitHub Pages in the settings to access your online documents. (For this demo is <a target="_blank" rel="noopener" href="https://mmdjiji.github.io/hexo-template">https://mmdjiji.github.io/hexo-template</a>)</p>
-<h2 id="Attention"><a href="#Attention" class="headerlink" title="!!! Attention !!!"></a>!!! Attention !!!</h2><p>Please always maintain this because I used sub path, if you don’t need, just remove it at the end of <code>_config.yml</code>:</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">root:</span> <span class="string">/hexo-template</span></span><br></pre></td></tr></table></figure>
-<p>Then modify the line 16 of <code>_config.yml</code> to your url:</p>
+<h2 id="CI-x2F-CD"><a href="#CI-x2F-CD" class="headerlink" title="CI&#x2F;CD"></a>CI&#x2F;CD</h2><p>This repository uses GitHub Actions for CI&#x2F;CD. You don’t need to build your documents manually. Just commit your documents (then run <code>git push</code>), and then turn on the GitHub Pages in the settings to access your online documents. (For this demo is <a target="_blank" rel="noopener" href="https://mmdjiji.github.io/hexo-template">https://mmdjiji.github.io/hexo-template</a>)</p>
+<h2 id="Attention"><a href="#Attention" class="headerlink" title="!!! Attention !!!"></a>!!! Attention !!!</h2><p>There are two lines to modify in <code>_config.yml</code>:</p>
+<ol>
+<li><p>(At line 16) Set your site url here. For example, if you use GitHub Page, set url as <code>https://username.github.io/project</code>:</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">url:</span> <span class="string">https://jiji.pro/hexo-template</span></span><br></pre></td></tr></table></figure>
-
-<p><strong>Sub path:</strong></p>
-<p>If you need to deploy with a sub path, modify the code at the end of <code>_config.yml</code>:</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">root:</span> <span class="string">/&#123;Your</span> <span class="string">project</span> <span class="string">name&#125;</span></span><br></pre></td></tr></table></figure>
-
-<p>For example, my project is <a target="_blank" rel="noopener" href="https://github.com/mmdjiji/hexo-template">mmdjiji&#x2F;hexo-template</a>, so I will add the following code at the end of <code>_config.yml</code>:</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">root:</span> <span class="string">/hexo-template</span></span><br></pre></td></tr></table></figure>
-
-<p>If you would not like to do so, it cannot work correctly.</p>
+</li>
+<li><p>(At line 107) Set your project name here, if your project name is <code>username</code> or <code>username.github.io</code>, just remove it at the end of <code>_config.yml</code>:</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">root:</span> <span class="string">/hexo-template</span></span><br></pre></td></tr></table></figure></li>
+</ol>
+<p><strong>If you would not like to do so, it cannot work correctly.</strong></p>
 <h2 id="Hexo-Features"><a href="#Hexo-Features" class="headerlink" title="Hexo Features"></a>Hexo Features</h2><ul>
 <li>Blazing fast generating</li>
 <li>Support for GitHub Flavored Markdown and most Octopress plugins</li>
@@ -150,7 +146,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://jiji.pro/hexo-template/hello-template/" data-id="cl5b4t4zb0000apop2qg130wh" data-title="Hexo Template" class="article-share-link">Share</a>
+      <a data-url="https://jiji.pro/hexo-template/hello-template/" data-id="cl6uvaucg0000gqou1fqif9up" data-title="Hexo Template" class="article-share-link">Share</a>
       
       
       
@@ -180,7 +176,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/hexo-template/archives/2022/07/">July 2022</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/hexo-template/archives/2022/08/">August 2022</a></li></ul>
     </div>
   </div>
 
