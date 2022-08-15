@@ -4,10 +4,7 @@ title: Hexo Template
 
 > A fast, simple & powerful blog framework, powered by [Node.js](https://nodejs.org). Here is the template of it.
 
-[Demo](https://mmdjiji.github.io/hexo-template) |
-[Official Website](https://hexo.io) |
-[Documentation](https://hexo.io/docs/) |
-[GitHub](https://github.com/mmdjiji/hexo-template)
+[Demo](https://mmdjiji.github.io/hexo-template) | [Official Website](https://hexo.io) | [Documentation](https://hexo.io/docs/) | [GitHub](https://github.com/mmdjiji/hexo-template)
 
 ## CI/CD
 
