@@ -9,34 +9,25 @@
 [Documentation](https://hexo.io/docs/) |
 [GitHub](https://github.com/mmdjiji/hexo-template)
 
-## Continuous Deployment
+## CI/CD
 
-This repository uses GitHub Actions for continuous deployment. You don't need to build your documents manually. Just commit your documents (then run git push), and then turn on the GitHub Pages in the settings to access your online documents. (For this demo is https://mmdjiji.github.io/hexo-template)
+This repository uses GitHub Actions for CI/CD. You don't need to build your documents manually. Just commit your documents (then run `git push`), and then turn on the GitHub Pages in the settings to access your online documents. (For this demo is https://mmdjiji.github.io/hexo-template)
 
 ## !!! Attention !!!
 
-Please always maintain this because I used sub path, if you don't need, just remove it at the end of `_config.yml`:
-```yml
-root: /hexo-template
-```
-Then modify the line 16 of `_config.yml` to your url:
+There are two lines to modify in `_config.yml`:
+
+1. (At line 16) Set your site url here. For example, if you use GitHub Page, set url as `https://username.github.io/project`:
 ```yml
 url: https://jiji.pro/hexo-template
 ```
 
-**Sub path:**
-
-If you need to deploy with a sub path, modify the code at the end of `_config.yml`:
-```yml
-root: /{Your project name}
-```
-
-For example, my project is [mmdjiji/hexo-template](https://github.com/mmdjiji/hexo-template), so I will add the following code at the end of `_config.yml`:
+2. (At line 107) Set your project name here, if your project name is `username` or `username.github.io`, just remove it at the end of `_config.yml`:
 ```yml
 root: /hexo-template
 ```
 
-If you would not like to do so, it cannot work correctly.
+**If you would not like to do so, it cannot work correctly.**
 
 ## Hexo Features
 
