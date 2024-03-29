@@ -110,13 +110,6 @@ button::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
-@font-face {
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  src: url("fonts/fontawesome-webfont.eot?v=4.7.0");
-  src: url("fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
-}
 html,
 body,
 #container {
@@ -403,7 +396,6 @@ body {
   opacity: 1;
 }
 .nav-icon {
-  font-family: FontAwesome;
   text-align: center;
   font-size: 14px;
   width: 14px;
@@ -424,9 +416,6 @@ body {
 #main-nav-toggle {
   display: none;
 }
-#main-nav-toggle:before {
-  content: "\f0c9";
-}
 @media screen and (max-width: 479px) {
   #main-nav-toggle {
     display: block;
@@ -435,12 +424,6 @@ body {
 #sub-nav {
   float: right;
   margin-right: -15px;
-}
-#nav-rss-link:before {
-  content: "\f09e";
-}
-#nav-search-btn:before {
-  content: "\f002";
 }
 #search-form-wrap {
   position: absolute;
@@ -492,7 +475,7 @@ body {
   top: 50%;
   right: 10px;
   margin-top: -7px;
-  font: 13px FontAwesome;
+  font: 13px ForkAwesome;
   border: none;
   background: none;
   color: #bbb;
@@ -622,7 +605,6 @@ a.article-title:hover {
 }
 .article-entry blockquote {
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.4em;
   margin: 1.6em 20px;
   text-align: center;
 }
@@ -721,8 +703,6 @@ a.article-title:hover {
   float: right;
 }
 .article-comment-link:before {
-  content: "\f075";
-  font-family: FontAwesome;
   padding-right: 8px;
 }
 .article-share-link {
@@ -731,8 +711,6 @@ a.article-title:hover {
   margin-left: 20px;
 }
 .article-share-link:before {
-  content: "\f064";
-  font-family: FontAwesome;
   padding-right: 6px;
 }
 #article-nav {
@@ -871,7 +849,6 @@ a.article-title:hover {
 .article-share-pinterest:before,
 .article-share-linkedin:before {
   font-size: 20px;
-  font-family: FontAwesome;
   width: 20px;
   height: 20px;
   position: absolute;
@@ -887,29 +864,17 @@ a.article-title:hover {
 .article-share-linkedin:hover {
   color: #fff;
 }
-.article-share-twitter:before {
-  content: "\f099";
-}
 .article-share-twitter:hover {
   background: #00aced;
   text-shadow: 0 1px #008abe;
-}
-.article-share-facebook:before {
-  content: "\f09a";
 }
 .article-share-facebook:hover {
   background: #3b5998;
   text-shadow: 0 1px #2f477a;
 }
-.article-share-pinterest:before {
-  content: "\f0d2";
-}
 .article-share-pinterest:hover {
   background: #cb2027;
   text-shadow: 0 1px #a21a1f;
-}
-.article-share-linkedin:before {
-  content: "\f0e1";
 }
 .article-share-linkedin:hover {
   background: #0077b5;
@@ -1149,6 +1114,15 @@ a.article-title:hover {
 }
 .article-entry .highlight figcaption a {
   float: right;
+}
+.article-entry .highlight .gutter {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 .article-entry .highlight .gutter pre {
   text-align: right;
