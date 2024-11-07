@@ -11,7 +11,7 @@
 
 ## Get Started
 
-There are two lines to modify in `_config.yml`:
+Use this template and create your repository, there are two lines to modify in `_config.yml`:
 
 1. Set your site url at **line 16**. For example, if you use GitHub Page, set url as `https://username.github.io/project`:
 ```yml
