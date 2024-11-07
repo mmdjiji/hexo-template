@@ -4,11 +4,11 @@ title: Hexo Template
 
 > A fast, simple & powerful blog framework, powered by [Node.js](https://nodejs.org). Here is the template of it.
 
-[Demo](https://mmdjiji.github.io/hexo-template) | [Official Website](https://hexo.io) | [Documentation](https://hexo.io/docs/) | [GitHub](https://github.com/mmdjiji/hexo-template)
+[Demo](https://std.ac/hexo-template) | [Official Website](https://hexo.io) | [Documentation](https://hexo.io/docs/) | [GitHub](https://github.com/mmdjiji/hexo-template)
 
 ## CI/CD
 
-This repository uses GitHub Actions for CI/CD. You don't need to build your documents manually. Just commit your documents (then run `git push`), and then turn on the GitHub Pages in the settings to access your online documents. (For this demo is https://mmdjiji.github.io/hexo-template)
+This repository uses GitHub Actions for CI/CD. You don't need to build your documents manually. Just commit your documents (then run `git push`), and then turn on the GitHub Pages in the settings to access your online documents. (For this demo is https://std.ac/hexo-template)
 
 ## !!! Attention !!!
 
@@ -16,7 +16,7 @@ There are two lines to modify in `_config.yml`:
 
 1. (At line 16) Set your site url here. For example, if you use GitHub Page, set url as `https://username.github.io/project`:
 ```yml
-url: https://jiji.pro/hexo-template
+url: https://std.ac/hexo-template
 ```
 
 2. (At line 107) Set your project name here, if your project name is `username` or `username.github.io`, just remove it at the end of `_config.yml`:
